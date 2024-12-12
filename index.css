@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    background-color: orangered; 
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+}
+
+#home-score{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    color: whitesmoke; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    
+}
+
+#guest-score{
+    
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+}
+
+#home, #guest {
+    margin-left: 20px;
+}
+
+#points-added1, #points-added2{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 15px; 
+}
+
+.point {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+    
+}
+
+.reset-button {
+    position: absolute;
+    top: 250px;
+    right: 44%;
+    background-color: orangered;
+    cursor: pointer;
+    
+        }
+button:hover {
+    opacity: 0.9;
+}
+
+   
